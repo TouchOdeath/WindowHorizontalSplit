@@ -6,6 +6,8 @@ xdotool
 wmctrl
 xdpyinfo
 
+    apt install xdotool wmctrl xdpyinfo
+
 # Usage
 move window to left side of screen:
 
