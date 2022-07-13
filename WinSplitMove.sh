@@ -8,7 +8,7 @@ xdotool windowsize $winid 50% 100%
 if [ "$1" == "left" ]; then
     xdotool windowmove $winid 0 0
 else
-	WIDTH=$(xdpyinfo | awk '/dimensions/{print $2}' | awk -F "x" '{print $1}')
-	WIDTH=$(($WIDTH / 2))
-	xdotool windowmove $winid $WIDTH 0
+    WIDTH=$(xdpyinfo | awk '/dimensions/{print $2}' | awk -F "x" '{print $1}')
+    WIDTH=$(($WIDTH / 2))
+    xdotool windowmove $winid $WIDTH 0
 fi
