@@ -6,9 +6,8 @@ function UnMaximizeWin(){
 UnMaximizeWin
 winid=$(xdotool getwindowfocus)
 xdotool windowsize $winid 50% 100%
-if [ "$1" == "left" ]; then
-    WIDTH=0
-else
+WIDTH=0
+if [ "$1" == "right" ]; then
     WIDTH=$(xdpyinfo | awk '/dimensions/{print $2}' | awk -F "x" '{print $1}')
     WIDTH=$(($WIDTH / 2))
 fi
