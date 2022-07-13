@@ -2,6 +2,7 @@
 function UnMaximizeWin(){
 	wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz
 }
+#un-maximize window in order to resize and move window
 UnMaximizeWin
 winid=$(xdotool getwindowfocus)
 xdotool windowsize $winid 50% 100%
