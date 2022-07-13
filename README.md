@@ -7,6 +7,8 @@ wmctrl
 xdpyinfo
 
     apt install xdotool wmctrl xdpyinfo
+    
+`apt install xdpyinfo` may not work for your distro.
 
 # Usage
 move window to left side of screen:
