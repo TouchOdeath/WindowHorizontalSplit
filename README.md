@@ -1,8 +1,10 @@
 # WindowHorizontalSplit
 Lets you split windows left and right, like in M$
 
-# Setup
-    apt install xdotool
+# Requirements
+    xdotool
+    wmctrl
+    xdpyinfo
 
 # Usage
 move window to left side of screen:
