@@ -2,9 +2,9 @@
 Lets you split windows left and right, like in M$
 
 # Requirements
-    xdotool
-    wmctrl
-    xdpyinfo
+xdotool
+wmctrl
+xdpyinfo
 
 # Usage
 move window to left side of screen:
